@@ -1,6 +1,6 @@
 ﻿namespace QuizPGM.Desk
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(474, 393);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
