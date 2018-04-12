@@ -51,6 +51,7 @@
             this.load.ForeColor = System.Drawing.Color.White;
             this.load.Location = new System.Drawing.Point(119, 310);
             this.load.Name = "load";
+            this.load.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.load.Size = new System.Drawing.Size(125, 24);
             this.load.TabIndex = 1;
             this.load.Text = "Carregando...";
@@ -95,6 +96,7 @@
             this.Controls.Add(this.title);
             this.Controls.Add(this.load);
             this.Controls.Add(this.bar);
+            this.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(500, 345);
             this.MinimumSize = new System.Drawing.Size(500, 345);
