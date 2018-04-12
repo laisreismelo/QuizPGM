@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp6
+﻿namespace QuizPGM.Desk
 {
-    partial class inicio
+    partial class Inicio
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(inicio));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.sim = new System.Windows.Forms.Button();
             this.nao = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,6 +58,7 @@
             this.nao.TabIndex = 0;
             this.nao.Text = "Não";
             this.nao.UseVisualStyleBackColor = false;
+            this.nao.Click += new System.EventHandler(this.nao_Click);
             // 
             // label1
             // 
@@ -95,7 +96,7 @@
             this.label3.Text = "Criadores: Diogo Escobar, Eduardo Kendy, Evelyn Pedrosa, Felipe Teixeira e Lais R" +
     "eis ";
             // 
-            // inicio
+            // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,9 +112,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "inicio";
+            this.Name = "Inicio";
             this.ShowInTaskbar = false;
-            this.Text = "Questionário(Início)";
+            this.Text = "Questionário (Início)";
             this.Load += new System.EventHandler(this.inicio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

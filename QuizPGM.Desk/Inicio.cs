@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp6
+namespace QuizPGM.Desk
 {
-    public partial class inicio : Form
+    public partial class Inicio : Form
     {
-        public inicio()
+        public string res; 
+
+        public Inicio()
         {
             InitializeComponent();
         }
@@ -24,7 +26,14 @@ namespace WindowsFormsApp6
 
         private void sim_Click(object sender, EventArgs e)
         {
+            res = "s";
+            this.Close();
+        }
 
+        private void nao_Click(object sender, EventArgs e)
+        {
+            res = "n";
+            this.Close();
         }
     }
 }

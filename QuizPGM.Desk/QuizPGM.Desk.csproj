@@ -57,11 +57,11 @@
     <Compile Include="Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Início.cs">
+    <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Início.designer.cs">
-      <DependentUpon>Início.cs</DependentUpon>
+    <Compile Include="Inicio.designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Pergunta1.cs">
       <SubType>Form</SubType>
@@ -83,8 +83,8 @@
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Início.resx">
-      <DependentUpon>Início.cs</DependentUpon>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pergunta1.resx">
       <DependentUpon>Pergunta1.cs</DependentUpon>

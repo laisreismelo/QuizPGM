@@ -19,8 +19,19 @@ namespace QuizPGM.Desk
 
         private void Principal_Load(object sender, EventArgs e)
         {
-             Splash tela = new Splash();
-             tela.ShowDialog();
+            Splash tela = new Splash();
+            Inicio inicio = new Inicio();
+            tela.ShowDialog();
+            inicio.ShowDialog();
+            if (inicio.res == "s")
+            {
+                this.Opacity = 1;
+            }
+            else
+            {
+                this.Close();
+            }
+            
         }
     }
 }
