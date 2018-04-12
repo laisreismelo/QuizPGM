@@ -36,5 +36,20 @@ namespace WindowsFormsApp6
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sim_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
