@@ -46,7 +46,7 @@
             // load
             // 
             this.load.AutoSize = true;
-            this.load.BackColor = System.Drawing.Color.Transparent;
+            this.load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.load.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.load.ForeColor = System.Drawing.Color.White;
             this.load.Location = new System.Drawing.Point(119, 310);
