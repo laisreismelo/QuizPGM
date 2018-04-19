@@ -35,5 +35,10 @@ namespace QuizPGM.Desk
             res = "n";
             this.Close();
         }
+
+        private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }
