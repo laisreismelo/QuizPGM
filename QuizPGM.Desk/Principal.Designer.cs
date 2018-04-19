@@ -37,7 +37,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Principal";
             this.Opacity = 0D;
-            this.ShowInTaskbar = false;
             this.Load += new System.EventHandler(this.Principal_Load);
             this.ResumeLayout(false);
 

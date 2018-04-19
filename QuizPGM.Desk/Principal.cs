@@ -25,7 +25,7 @@ namespace QuizPGM.Desk
             inicio.ShowDialog();
             if (inicio.res== "s")
             {
-                new Perguntas().Show();
+                new Perguntas().ShowDialog();
             }
             if (inicio.res == "n")
             {
