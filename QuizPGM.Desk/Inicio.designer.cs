@@ -113,7 +113,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Inicio";
-            this.ShowInTaskbar = false;
             this.Text = "Questionário (Início)";
             this.Load += new System.EventHandler(this.inicio_Load);
             this.ResumeLayout(false);
