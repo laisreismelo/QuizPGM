@@ -12,12 +12,33 @@ namespace QuizPGM.Desk
 {
     public partial class Perguntas : Form
     {
+        private int nota;
         public Perguntas()
         {
             InitializeComponent();
+            nota = 0;
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ques1name_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radiores4ques1.Checked == true)
+            {
+                nota += 1;
+            }
+            panel1.Visible = false;
+        }
+
+        private void radiores4ques2_CheckedChanged(object sender, EventArgs e)
         {
 
         }
