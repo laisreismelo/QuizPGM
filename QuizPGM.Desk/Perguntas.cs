@@ -21,5 +21,10 @@ namespace QuizPGM.Desk
         {
 
         }
+
+        private void Perguntas_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
     }
 }
