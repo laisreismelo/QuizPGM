@@ -92,11 +92,11 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Window;
-            this.label3.Location = new System.Drawing.Point(12, 491);
+            this.label3.Location = new System.Drawing.Point(12, 501);
             this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(10);
+            this.label3.Padding = new System.Windows.Forms.Padding(5);
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(147, 152);
+            this.label3.Size = new System.Drawing.Size(137, 142);
             this.label3.TabIndex = 4;
             this.label3.Text = "Criadores: \r\nDiogo Escobar\r\nEduardo Kendy\r\nEvelyn Pedrosa\r\nFelipe Teixeira\r\nLais " +
     "Reis ";
@@ -107,7 +107,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(974, 652);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
