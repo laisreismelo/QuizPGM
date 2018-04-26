@@ -114,8 +114,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Inicio";
             this.Text = "Questionário (Início)";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Inicio_FormClosed);
-            this.Load += new System.EventHandler(this.inicio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

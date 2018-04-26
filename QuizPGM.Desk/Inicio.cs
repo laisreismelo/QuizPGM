@@ -20,11 +20,6 @@ namespace QuizPGM.Desk
             res = "n";
         }
 
-        private void inicio_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void sim_Click(object sender, EventArgs e)
         {
             res = "s";
@@ -35,11 +30,6 @@ namespace QuizPGM.Desk
         {
             res = "n";
             this.Close();
-        }
-
-        private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
         }
     }
 }
