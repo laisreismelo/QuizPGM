@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NovaPerguntas));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.img1ques1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.resp14 = new System.Windows.Forms.RadioButton();
             this.resp13 = new System.Windows.Forms.RadioButton();
@@ -110,6 +111,7 @@
             this.ques10texto = new System.Windows.Forms.Label();
             this.ques10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.img1ques1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -124,6 +126,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.img1ques1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.resp14);
             this.panel1.Controls.Add(this.resp13);
@@ -137,10 +140,22 @@
             this.panel1.Size = new System.Drawing.Size(1064, 612);
             this.panel1.TabIndex = 0;
             // 
+            // img1ques1
+            // 
+            this.img1ques1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.img1ques1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.img1ques1.Image = ((System.Drawing.Image)(resources.GetObject("img1ques1.Image")));
+            this.img1ques1.Location = new System.Drawing.Point(546, 267);
+            this.img1ques1.Name = "img1ques1";
+            this.img1ques1.Size = new System.Drawing.Size(506, 333);
+            this.img1ques1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img1ques1.TabIndex = 0;
+            this.img1ques1.TabStop = false;
+            // 
             // button3
             // 
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(8, 436);
+            this.button3.Location = new System.Drawing.Point(3, 569);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 31);
             this.button3.TabIndex = 14;
@@ -156,7 +171,6 @@
             this.resp14.Name = "resp14";
             this.resp14.Size = new System.Drawing.Size(172, 30);
             this.resp14.TabIndex = 5;
-            this.resp14.TabStop = true;
             this.resp14.Text = "Gás lacrimogênio";
             this.resp14.UseVisualStyleBackColor = true;
             // 
@@ -168,7 +182,6 @@
             this.resp13.Name = "resp13";
             this.resp13.Size = new System.Drawing.Size(151, 30);
             this.resp13.TabIndex = 4;
-            this.resp13.TabStop = true;
             this.resp13.Text = "Gás fosfogênio";
             this.resp13.UseVisualStyleBackColor = true;
             this.resp13.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
@@ -181,7 +194,6 @@
             this.resp12.Name = "resp12";
             this.resp12.Size = new System.Drawing.Size(143, 30);
             this.resp12.TabIndex = 3;
-            this.resp12.TabStop = true;
             this.resp12.Text = "Gás mostarda";
             this.resp12.UseVisualStyleBackColor = true;
             // 
@@ -193,7 +205,6 @@
             this.resp11.Name = "resp11";
             this.resp11.Size = new System.Drawing.Size(106, 30);
             this.resp11.TabIndex = 2;
-            this.resp11.TabStop = true;
             this.resp11.Text = "Gás cloro";
             this.resp11.UseVisualStyleBackColor = true;
             this.resp11.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
@@ -239,7 +250,7 @@
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(8, 436);
+            this.button1.Location = new System.Drawing.Point(3, 569);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 31);
             this.button1.TabIndex = 13;
@@ -383,7 +394,7 @@
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(16, 427);
+            this.button2.Location = new System.Drawing.Point(3, 569);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 31);
             this.button2.TabIndex = 12;
@@ -431,7 +442,7 @@
             // button4
             // 
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(8, 433);
+            this.button4.Location = new System.Drawing.Point(3, 569);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 31);
             this.button4.TabIndex = 11;
@@ -528,7 +539,7 @@
             // button6
             // 
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(8, 430);
+            this.button6.Location = new System.Drawing.Point(3, 569);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 31);
             this.button6.TabIndex = 9;
@@ -625,7 +636,7 @@
             // button8
             // 
             this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(14, 438);
+            this.button8.Location = new System.Drawing.Point(3, 569);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 31);
             this.button8.TabIndex = 7;
@@ -674,7 +685,7 @@
             // 
             this.resp81.AutoSize = true;
             this.resp81.ForeColor = System.Drawing.Color.White;
-            this.resp81.Location = new System.Drawing.Point(14, 145);
+            this.resp81.Location = new System.Drawing.Point(8, 179);
             this.resp81.Name = "resp81";
             this.resp81.Size = new System.Drawing.Size(185, 30);
             this.resp81.TabIndex = 2;
@@ -723,7 +734,7 @@
             // button7
             // 
             this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(14, 432);
+            this.button7.Location = new System.Drawing.Point(3, 569);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 31);
             this.button7.TabIndex = 8;
@@ -820,7 +831,7 @@
             // button5
             // 
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(8, 433);
+            this.button5.Location = new System.Drawing.Point(3, 569);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 31);
             this.button5.TabIndex = 10;
@@ -916,7 +927,7 @@
             // button9
             // 
             this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(8, 426);
+            this.button9.Location = new System.Drawing.Point(3, 569);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 31);
             this.button9.TabIndex = 6;
@@ -1015,7 +1026,7 @@
             // button10
             // 
             this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(8, 441);
+            this.button10.Location = new System.Drawing.Point(3, 569);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 31);
             this.button10.TabIndex = 7;
@@ -1115,13 +1126,16 @@
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1080, 650);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1080, 650);
             this.Name = "NovaPerguntas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perguntas";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.img1ques1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -1226,5 +1240,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.PictureBox img1ques1;
     }
 }
