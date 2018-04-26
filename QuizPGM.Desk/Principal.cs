@@ -23,15 +23,14 @@ namespace QuizPGM.Desk
             Inicio inicio = new Inicio();
             tela.ShowDialog();
             inicio.ShowDialog();
-            if (inicio.res == "s")
+            if (inicio.res== "s")
             {
-                this.Opacity = 1;
+                new Perguntas().ShowDialog();
             }
-            else
+            if (inicio.res == "n")
             {
                 this.Close();
             }
-            
         }
     }
 }
