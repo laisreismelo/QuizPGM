@@ -47,12 +47,12 @@
             // 
             this.load.AutoSize = true;
             this.load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.load.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.load.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.load.ForeColor = System.Drawing.Color.White;
             this.load.Location = new System.Drawing.Point(145, 313);
             this.load.Name = "load";
             this.load.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.load.Size = new System.Drawing.Size(105, 20);
+            this.load.Size = new System.Drawing.Size(109, 20);
             this.load.TabIndex = 1;
             this.load.Text = "Carregando...";
             this.load.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -63,7 +63,7 @@
             this.title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.title.Font = new System.Drawing.Font("Century", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.White;
-            this.title.Location = new System.Drawing.Point(183, 17);
+            this.title.Location = new System.Drawing.Point(183, 110);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(133, 57);
             this.title.TabIndex = 2;
@@ -75,7 +75,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Century", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(58, 74);
+            this.label1.Location = new System.Drawing.Point(58, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(386, 34);
             this.label1.TabIndex = 3;
