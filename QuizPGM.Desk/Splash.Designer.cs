@@ -49,7 +49,7 @@
             this.load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.load.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.load.ForeColor = System.Drawing.Color.White;
-            this.load.Location = new System.Drawing.Point(145, 313);
+            this.load.Location = new System.Drawing.Point(135, 313);
             this.load.Name = "load";
             this.load.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.load.Size = new System.Drawing.Size(109, 20);
