@@ -127,7 +127,6 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Principal";
-            this.Opacity = 0D;
             this.Load += new System.EventHandler(this.Principal_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
