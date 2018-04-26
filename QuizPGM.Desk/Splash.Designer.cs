@@ -104,7 +104,8 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(500, 345);
+            this.MaximumSize = new System.Drawing.Size(415, 270);
+            this.MinimumSize = new System.Drawing.Size(415, 270);
             this.Name = "Splash";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
