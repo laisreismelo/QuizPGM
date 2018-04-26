@@ -47,12 +47,12 @@
             // 
             this.load.AutoSize = true;
             this.load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.load.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.load.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.load.ForeColor = System.Drawing.Color.White;
-            this.load.Location = new System.Drawing.Point(119, 310);
+            this.load.Location = new System.Drawing.Point(145, 313);
             this.load.Name = "load";
             this.load.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.load.Size = new System.Drawing.Size(125, 24);
+            this.load.Size = new System.Drawing.Size(105, 20);
             this.load.TabIndex = 1;
             this.load.Text = "Carregando...";
             this.load.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -83,7 +83,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 1000;
+            this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Splash

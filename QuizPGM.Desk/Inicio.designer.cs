@@ -39,10 +39,11 @@
             // sim
             // 
             this.sim.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.sim.Location = new System.Drawing.Point(723, 320);
+            this.sim.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.sim.Location = new System.Drawing.Point(679, 305);
             this.sim.Margin = new System.Windows.Forms.Padding(4);
             this.sim.Name = "sim";
-            this.sim.Size = new System.Drawing.Size(70, 32);
+            this.sim.Size = new System.Drawing.Size(134, 32);
             this.sim.TabIndex = 0;
             this.sim.Text = "Sim";
             this.sim.UseVisualStyleBackColor = false;
@@ -51,10 +52,11 @@
             // nao
             // 
             this.nao.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.nao.Location = new System.Drawing.Point(825, 320);
+            this.nao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.nao.Location = new System.Drawing.Point(821, 305);
             this.nao.Margin = new System.Windows.Forms.Padding(4);
             this.nao.Name = "nao";
-            this.nao.Size = new System.Drawing.Size(70, 32);
+            this.nao.Size = new System.Drawing.Size(134, 32);
             this.nao.TabIndex = 0;
             this.nao.Text = "Não";
             this.nao.UseVisualStyleBackColor = false;
@@ -68,28 +70,28 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(672, 264);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 37);
+            this.label1.Size = new System.Drawing.Size(289, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Deseja Iniciar o quiz?";
+            this.label1.Text = "Deseja iniciar o quiz?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Window;
-            this.label2.Location = new System.Drawing.Point(0, 9);
+            this.label2.Location = new System.Drawing.Point(106, -4);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(966, 87);
+            this.label2.Size = new System.Drawing.Size(762, 65);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Quiz sobre a 1ª Guerra Mundial";
+            this.label2.Text = "PRIMEIRA GUERRA MUNDIAL";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label3.ForeColor = System.Drawing.SystemColors.Window;
-            this.label3.Location = new System.Drawing.Point(12, 625);
+            this.label3.Location = new System.Drawing.Point(214, 634);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(532, 18);
             this.label3.TabIndex = 4;
@@ -113,7 +115,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Inicio";
-            this.Text = "Questionário (Início)";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Quiz Primeira Guerra Mundial";
             this.ResumeLayout(false);
             this.PerformLayout();
 
