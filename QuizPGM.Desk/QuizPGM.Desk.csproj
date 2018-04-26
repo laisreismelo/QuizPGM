@@ -45,16 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Perguntas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Perguntas.Designer.cs">
+    <Compile Include="Perguntas.designer.cs">
       <DependentUpon>Perguntas.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
@@ -77,9 +71,6 @@
     <Compile Include="Splash.Designer.cs">
       <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Perguntas.resx">
       <DependentUpon>Perguntas.cs</DependentUpon>
     </EmbeddedResource>
