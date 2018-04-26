@@ -17,6 +17,7 @@ namespace QuizPGM.Desk
         public Inicio()
         {
             InitializeComponent();
+            res = "n";
         }
 
         private void inicio_Load(object sender, EventArgs e)
