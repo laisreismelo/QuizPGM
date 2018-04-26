@@ -55,7 +55,20 @@
             this.ques3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
+            this.resp44 = new System.Windows.Forms.RadioButton();
+            this.resp43 = new System.Windows.Forms.RadioButton();
+            this.resp42 = new System.Windows.Forms.RadioButton();
+            this.resp41 = new System.Windows.Forms.RadioButton();
+            this.ques4texto = new System.Windows.Forms.Label();
+            this.ques4 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.resp64 = new System.Windows.Forms.RadioButton();
+            this.resp63 = new System.Windows.Forms.RadioButton();
+            this.resp62 = new System.Windows.Forms.RadioButton();
+            this.resp61 = new System.Windows.Forms.RadioButton();
+            this.ques6texto = new System.Windows.Forms.Label();
+            this.ques6 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.resp84 = new System.Windows.Forms.RadioButton();
@@ -72,19 +85,6 @@
             this.resp71 = new System.Windows.Forms.RadioButton();
             this.ques7texto = new System.Windows.Forms.Label();
             this.ques7 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.resp64 = new System.Windows.Forms.RadioButton();
-            this.resp63 = new System.Windows.Forms.RadioButton();
-            this.resp62 = new System.Windows.Forms.RadioButton();
-            this.resp61 = new System.Windows.Forms.RadioButton();
-            this.ques6texto = new System.Windows.Forms.Label();
-            this.ques6 = new System.Windows.Forms.Label();
-            this.resp44 = new System.Windows.Forms.RadioButton();
-            this.resp43 = new System.Windows.Forms.RadioButton();
-            this.resp42 = new System.Windows.Forms.RadioButton();
-            this.resp41 = new System.Windows.Forms.RadioButton();
-            this.ques4texto = new System.Windows.Forms.Label();
-            this.ques4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.resp54 = new System.Windows.Forms.RadioButton();
@@ -95,6 +95,12 @@
             this.ques5 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
+            this.resp94 = new System.Windows.Forms.RadioButton();
+            this.resp93 = new System.Windows.Forms.RadioButton();
+            this.resp92 = new System.Windows.Forms.RadioButton();
+            this.resp91 = new System.Windows.Forms.RadioButton();
+            this.ques9texto = new System.Windows.Forms.Label();
+            this.ques9 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.resp104 = new System.Windows.Forms.RadioButton();
@@ -103,12 +109,6 @@
             this.resp101 = new System.Windows.Forms.RadioButton();
             this.ques10texto = new System.Windows.Forms.Label();
             this.ques10 = new System.Windows.Forms.Label();
-            this.resp94 = new System.Windows.Forms.RadioButton();
-            this.resp93 = new System.Windows.Forms.RadioButton();
-            this.resp92 = new System.Windows.Forms.RadioButton();
-            this.resp91 = new System.Windows.Forms.RadioButton();
-            this.ques9texto = new System.Windows.Forms.Label();
-            this.ques9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -440,6 +440,74 @@
             this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // resp44
+            // 
+            this.resp44.AutoSize = true;
+            this.resp44.ForeColor = System.Drawing.Color.White;
+            this.resp44.Location = new System.Drawing.Point(8, 315);
+            this.resp44.Name = "resp44";
+            this.resp44.Size = new System.Drawing.Size(307, 30);
+            this.resp44.TabIndex = 5;
+            this.resp44.TabStop = true;
+            this.resp44.Text = "Alemanha, Itália e Império Russo";
+            this.resp44.UseVisualStyleBackColor = true;
+            // 
+            // resp43
+            // 
+            this.resp43.AutoSize = true;
+            this.resp43.ForeColor = System.Drawing.Color.White;
+            this.resp43.Location = new System.Drawing.Point(8, 259);
+            this.resp43.Name = "resp43";
+            this.resp43.Size = new System.Drawing.Size(306, 30);
+            this.resp43.TabIndex = 4;
+            this.resp43.TabStop = true;
+            this.resp43.Text = "Império Russo, Alemanha e Itália";
+            this.resp43.UseVisualStyleBackColor = true;
+            // 
+            // resp42
+            // 
+            this.resp42.AutoSize = true;
+            this.resp42.ForeColor = System.Drawing.Color.White;
+            this.resp42.Location = new System.Drawing.Point(8, 201);
+            this.resp42.Name = "resp42";
+            this.resp42.Size = new System.Drawing.Size(340, 30);
+            this.resp42.TabIndex = 3;
+            this.resp42.TabStop = true;
+            this.resp42.Text = "Reino Unido, França e Império Russo";
+            this.resp42.UseVisualStyleBackColor = true;
+            // 
+            // resp41
+            // 
+            this.resp41.AutoSize = true;
+            this.resp41.ForeColor = System.Drawing.Color.White;
+            this.resp41.Location = new System.Drawing.Point(14, 145);
+            this.resp41.Name = "resp41";
+            this.resp41.Size = new System.Drawing.Size(291, 30);
+            this.resp41.TabIndex = 2;
+            this.resp41.TabStop = true;
+            this.resp41.Text = "Alemanha, Itália e Reino Unido";
+            this.resp41.UseVisualStyleBackColor = true;
+            // 
+            // ques4texto
+            // 
+            this.ques4texto.ForeColor = System.Drawing.Color.White;
+            this.ques4texto.Location = new System.Drawing.Point(3, 65);
+            this.ques4texto.Name = "ques4texto";
+            this.ques4texto.Size = new System.Drawing.Size(869, 67);
+            this.ques4texto.TabIndex = 1;
+            this.ques4texto.Text = "Quais foram os países que compuseram a tríplice entente (no inicio da 1º Guerra M" +
+    "undial)?";
+            // 
+            // ques4
+            // 
+            this.ques4.AutoSize = true;
+            this.ques4.ForeColor = System.Drawing.Color.White;
+            this.ques4.Location = new System.Drawing.Point(3, 3);
+            this.ques4.Name = "ques4";
+            this.ques4.Size = new System.Drawing.Size(117, 26);
+            this.ques4.TabIndex = 0;
+            this.ques4.Text = "Questâo nº 4";
+            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Transparent;
@@ -456,6 +524,86 @@
             this.panel6.Size = new System.Drawing.Size(1064, 612);
             this.panel6.TabIndex = 0;
             this.panel6.Visible = false;
+            // 
+            // button6
+            // 
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(8, 430);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 31);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Enviar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Visible = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // resp64
+            // 
+            this.resp64.AutoSize = true;
+            this.resp64.ForeColor = System.Drawing.Color.White;
+            this.resp64.Location = new System.Drawing.Point(8, 312);
+            this.resp64.Name = "resp64";
+            this.resp64.Size = new System.Drawing.Size(810, 30);
+            this.resp64.TabIndex = 5;
+            this.resp64.TabStop = true;
+            this.resp64.Text = "Criada a Organização das Nações Unidas. Império Austro-Húngaro se torna culpado d" +
+    "a guerra.";
+            this.resp64.UseVisualStyleBackColor = true;
+            // 
+            // resp63
+            // 
+            this.resp63.AutoSize = true;
+            this.resp63.ForeColor = System.Drawing.Color.White;
+            this.resp63.Location = new System.Drawing.Point(8, 256);
+            this.resp63.Name = "resp63";
+            this.resp63.Size = new System.Drawing.Size(637, 30);
+            this.resp63.TabIndex = 4;
+            this.resp63.TabStop = true;
+            this.resp63.Text = "Criada a Liga das Nações. Império Otomano se torna o culpado da guerra.";
+            this.resp63.UseVisualStyleBackColor = true;
+            // 
+            // resp62
+            // 
+            this.resp62.AutoSize = true;
+            this.resp62.ForeColor = System.Drawing.Color.White;
+            this.resp62.Location = new System.Drawing.Point(9, 198);
+            this.resp62.Name = "resp62";
+            this.resp62.Size = new System.Drawing.Size(658, 30);
+            this.resp62.TabIndex = 3;
+            this.resp62.TabStop = true;
+            this.resp62.Text = "Criada a Organização das Nações Unidas. Itália se torna a culpada da guerra.";
+            this.resp62.UseVisualStyleBackColor = true;
+            // 
+            // resp61
+            // 
+            this.resp61.AutoSize = true;
+            this.resp61.ForeColor = System.Drawing.Color.White;
+            this.resp61.Location = new System.Drawing.Point(9, 150);
+            this.resp61.Name = "resp61";
+            this.resp61.Size = new System.Drawing.Size(572, 30);
+            this.resp61.TabIndex = 2;
+            this.resp61.TabStop = true;
+            this.resp61.Text = "Criada a Liga das Nações. Alemanha se torna a culpada da guerra.";
+            this.resp61.UseVisualStyleBackColor = true;
+            // 
+            // ques6texto
+            // 
+            this.ques6texto.ForeColor = System.Drawing.Color.White;
+            this.ques6texto.Location = new System.Drawing.Point(3, 65);
+            this.ques6texto.Name = "ques6texto";
+            this.ques6texto.Size = new System.Drawing.Size(869, 145);
+            this.ques6texto.TabIndex = 1;
+            this.ques6texto.Text = "A 1 Guerra Mundial termina:";
+            // 
+            // ques6
+            // 
+            this.ques6.AutoSize = true;
+            this.ques6.ForeColor = System.Drawing.Color.White;
+            this.ques6.Location = new System.Drawing.Point(3, 0);
+            this.ques6.Name = "ques6";
+            this.ques6.Size = new System.Drawing.Size(117, 26);
+            this.ques6.TabIndex = 0;
+            this.ques6.Text = "Questâo nº 6";
             // 
             // panel8
             // 
@@ -651,154 +799,6 @@
             this.ques7.TabIndex = 0;
             this.ques7.Text = "Questâo nº 7";
             // 
-            // button6
-            // 
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(8, 430);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 31);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "Enviar";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Visible = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // resp64
-            // 
-            this.resp64.AutoSize = true;
-            this.resp64.ForeColor = System.Drawing.Color.White;
-            this.resp64.Location = new System.Drawing.Point(8, 312);
-            this.resp64.Name = "resp64";
-            this.resp64.Size = new System.Drawing.Size(810, 30);
-            this.resp64.TabIndex = 5;
-            this.resp64.TabStop = true;
-            this.resp64.Text = "Criada a Organização das Nações Unidas. Império Austro-Húngaro se torna culpado d" +
-    "a guerra.";
-            this.resp64.UseVisualStyleBackColor = true;
-            // 
-            // resp63
-            // 
-            this.resp63.AutoSize = true;
-            this.resp63.ForeColor = System.Drawing.Color.White;
-            this.resp63.Location = new System.Drawing.Point(8, 256);
-            this.resp63.Name = "resp63";
-            this.resp63.Size = new System.Drawing.Size(637, 30);
-            this.resp63.TabIndex = 4;
-            this.resp63.TabStop = true;
-            this.resp63.Text = "Criada a Liga das Nações. Império Otomano se torna o culpado da guerra.";
-            this.resp63.UseVisualStyleBackColor = true;
-            // 
-            // resp62
-            // 
-            this.resp62.AutoSize = true;
-            this.resp62.ForeColor = System.Drawing.Color.White;
-            this.resp62.Location = new System.Drawing.Point(9, 198);
-            this.resp62.Name = "resp62";
-            this.resp62.Size = new System.Drawing.Size(658, 30);
-            this.resp62.TabIndex = 3;
-            this.resp62.TabStop = true;
-            this.resp62.Text = "Criada a Organização das Nações Unidas. Itália se torna a culpada da guerra.";
-            this.resp62.UseVisualStyleBackColor = true;
-            // 
-            // resp61
-            // 
-            this.resp61.AutoSize = true;
-            this.resp61.ForeColor = System.Drawing.Color.White;
-            this.resp61.Location = new System.Drawing.Point(9, 150);
-            this.resp61.Name = "resp61";
-            this.resp61.Size = new System.Drawing.Size(572, 30);
-            this.resp61.TabIndex = 2;
-            this.resp61.TabStop = true;
-            this.resp61.Text = "Criada a Liga das Nações. Alemanha se torna a culpada da guerra.";
-            this.resp61.UseVisualStyleBackColor = true;
-            // 
-            // ques6texto
-            // 
-            this.ques6texto.ForeColor = System.Drawing.Color.White;
-            this.ques6texto.Location = new System.Drawing.Point(3, 65);
-            this.ques6texto.Name = "ques6texto";
-            this.ques6texto.Size = new System.Drawing.Size(869, 145);
-            this.ques6texto.TabIndex = 1;
-            this.ques6texto.Text = "A 1 Guerra Mundial termina:";
-            // 
-            // ques6
-            // 
-            this.ques6.AutoSize = true;
-            this.ques6.ForeColor = System.Drawing.Color.White;
-            this.ques6.Location = new System.Drawing.Point(3, 0);
-            this.ques6.Name = "ques6";
-            this.ques6.Size = new System.Drawing.Size(117, 26);
-            this.ques6.TabIndex = 0;
-            this.ques6.Text = "Questâo nº 6";
-            // 
-            // resp44
-            // 
-            this.resp44.AutoSize = true;
-            this.resp44.ForeColor = System.Drawing.Color.White;
-            this.resp44.Location = new System.Drawing.Point(8, 315);
-            this.resp44.Name = "resp44";
-            this.resp44.Size = new System.Drawing.Size(307, 30);
-            this.resp44.TabIndex = 5;
-            this.resp44.TabStop = true;
-            this.resp44.Text = "Alemanha, Itália e Império Russo";
-            this.resp44.UseVisualStyleBackColor = true;
-            // 
-            // resp43
-            // 
-            this.resp43.AutoSize = true;
-            this.resp43.ForeColor = System.Drawing.Color.White;
-            this.resp43.Location = new System.Drawing.Point(8, 259);
-            this.resp43.Name = "resp43";
-            this.resp43.Size = new System.Drawing.Size(306, 30);
-            this.resp43.TabIndex = 4;
-            this.resp43.TabStop = true;
-            this.resp43.Text = "Império Russo, Alemanha e Itália";
-            this.resp43.UseVisualStyleBackColor = true;
-            // 
-            // resp42
-            // 
-            this.resp42.AutoSize = true;
-            this.resp42.ForeColor = System.Drawing.Color.White;
-            this.resp42.Location = new System.Drawing.Point(8, 201);
-            this.resp42.Name = "resp42";
-            this.resp42.Size = new System.Drawing.Size(340, 30);
-            this.resp42.TabIndex = 3;
-            this.resp42.TabStop = true;
-            this.resp42.Text = "Reino Unido, França e Império Russo";
-            this.resp42.UseVisualStyleBackColor = true;
-            // 
-            // resp41
-            // 
-            this.resp41.AutoSize = true;
-            this.resp41.ForeColor = System.Drawing.Color.White;
-            this.resp41.Location = new System.Drawing.Point(14, 145);
-            this.resp41.Name = "resp41";
-            this.resp41.Size = new System.Drawing.Size(291, 30);
-            this.resp41.TabIndex = 2;
-            this.resp41.TabStop = true;
-            this.resp41.Text = "Alemanha, Itália e Reino Unido";
-            this.resp41.UseVisualStyleBackColor = true;
-            // 
-            // ques4texto
-            // 
-            this.ques4texto.ForeColor = System.Drawing.Color.White;
-            this.ques4texto.Location = new System.Drawing.Point(3, 65);
-            this.ques4texto.Name = "ques4texto";
-            this.ques4texto.Size = new System.Drawing.Size(869, 67);
-            this.ques4texto.TabIndex = 1;
-            this.ques4texto.Text = "Quais foram os países que compuseram a tríplice entente (no inicio da 1º Guerra M" +
-    "undial)?";
-            // 
-            // ques4
-            // 
-            this.ques4.AutoSize = true;
-            this.ques4.ForeColor = System.Drawing.Color.White;
-            this.ques4.Location = new System.Drawing.Point(3, 3);
-            this.ques4.Name = "ques4";
-            this.ques4.Size = new System.Drawing.Size(117, 26);
-            this.ques4.TabIndex = 0;
-            this.ques4.Text = "Questâo nº 4";
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Transparent;
@@ -925,6 +925,76 @@
             this.button9.Visible = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // resp94
+            // 
+            this.resp94.AutoSize = true;
+            this.resp94.ForeColor = System.Drawing.Color.White;
+            this.resp94.Location = new System.Drawing.Point(8, 315);
+            this.resp94.Name = "resp94";
+            this.resp94.Size = new System.Drawing.Size(342, 30);
+            this.resp94.TabIndex = 5;
+            this.resp94.TabStop = true;
+            this.resp94.Text = "Tríplice dos Unidos e Tríplice Cardial.";
+            this.resp94.UseVisualStyleBackColor = true;
+            // 
+            // resp93
+            // 
+            this.resp93.AutoSize = true;
+            this.resp93.ForeColor = System.Drawing.Color.White;
+            this.resp93.Location = new System.Drawing.Point(8, 259);
+            this.resp93.Name = "resp93";
+            this.resp93.Size = new System.Drawing.Size(315, 30);
+            this.resp93.TabIndex = 4;
+            this.resp93.TabStop = true;
+            this.resp93.Text = "Tríplice Aliança e Tríplice Entente.";
+            this.resp93.UseVisualStyleBackColor = true;
+            // 
+            // resp92
+            // 
+            this.resp92.AutoSize = true;
+            this.resp92.ForeColor = System.Drawing.Color.White;
+            this.resp92.Location = new System.Drawing.Point(8, 201);
+            this.resp92.Name = "resp92";
+            this.resp92.Size = new System.Drawing.Size(315, 30);
+            this.resp92.TabIndex = 3;
+            this.resp92.TabStop = true;
+            this.resp92.Text = "Tríplice Entente e Tríplice Aliança.";
+            this.resp92.UseVisualStyleBackColor = true;
+            // 
+            // resp91
+            // 
+            this.resp91.AutoSize = true;
+            this.resp91.ForeColor = System.Drawing.Color.White;
+            this.resp91.Location = new System.Drawing.Point(14, 145);
+            this.resp91.Name = "resp91";
+            this.resp91.Size = new System.Drawing.Size(392, 30);
+            this.resp91.TabIndex = 2;
+            this.resp91.TabStop = true;
+            this.resp91.Text = "Tríplice dos Vencedores e Tríplice de Hitler.";
+            this.resp91.UseVisualStyleBackColor = true;
+            // 
+            // ques9texto
+            // 
+            this.ques9texto.ForeColor = System.Drawing.Color.White;
+            this.ques9texto.Location = new System.Drawing.Point(3, 65);
+            this.ques9texto.Name = "ques9texto";
+            this.ques9texto.Size = new System.Drawing.Size(869, 77);
+            this.ques9texto.TabIndex = 1;
+            this.ques9texto.Text = "Qual o nome da aliança feita entre a Inglaterra, França e Rússia? E qual o nome d" +
+    "a aliança formada pela Alemanha, o Império Austro-Húngaro e a Itália?  Respectiv" +
+    "amente:";
+            this.ques9texto.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // ques9
+            // 
+            this.ques9.AutoSize = true;
+            this.ques9.ForeColor = System.Drawing.Color.White;
+            this.ques9.Location = new System.Drawing.Point(3, 0);
+            this.ques9.Name = "ques9";
+            this.ques9.Size = new System.Drawing.Size(117, 26);
+            this.ques9.TabIndex = 0;
+            this.ques9.Text = "Questâo nº 9";
+            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.Transparent;
@@ -1023,76 +1093,6 @@
             this.ques10.TabIndex = 0;
             this.ques10.Text = "Questâo nº 10";
             // 
-            // resp94
-            // 
-            this.resp94.AutoSize = true;
-            this.resp94.ForeColor = System.Drawing.Color.White;
-            this.resp94.Location = new System.Drawing.Point(8, 315);
-            this.resp94.Name = "resp94";
-            this.resp94.Size = new System.Drawing.Size(342, 30);
-            this.resp94.TabIndex = 5;
-            this.resp94.TabStop = true;
-            this.resp94.Text = "Tríplice dos Unidos e Tríplice Cardial.";
-            this.resp94.UseVisualStyleBackColor = true;
-            // 
-            // resp93
-            // 
-            this.resp93.AutoSize = true;
-            this.resp93.ForeColor = System.Drawing.Color.White;
-            this.resp93.Location = new System.Drawing.Point(8, 259);
-            this.resp93.Name = "resp93";
-            this.resp93.Size = new System.Drawing.Size(315, 30);
-            this.resp93.TabIndex = 4;
-            this.resp93.TabStop = true;
-            this.resp93.Text = "Tríplice Aliança e Tríplice Entente.";
-            this.resp93.UseVisualStyleBackColor = true;
-            // 
-            // resp92
-            // 
-            this.resp92.AutoSize = true;
-            this.resp92.ForeColor = System.Drawing.Color.White;
-            this.resp92.Location = new System.Drawing.Point(8, 201);
-            this.resp92.Name = "resp92";
-            this.resp92.Size = new System.Drawing.Size(315, 30);
-            this.resp92.TabIndex = 3;
-            this.resp92.TabStop = true;
-            this.resp92.Text = "Tríplice Entente e Tríplice Aliança.";
-            this.resp92.UseVisualStyleBackColor = true;
-            // 
-            // resp91
-            // 
-            this.resp91.AutoSize = true;
-            this.resp91.ForeColor = System.Drawing.Color.White;
-            this.resp91.Location = new System.Drawing.Point(14, 145);
-            this.resp91.Name = "resp91";
-            this.resp91.Size = new System.Drawing.Size(392, 30);
-            this.resp91.TabIndex = 2;
-            this.resp91.TabStop = true;
-            this.resp91.Text = "Tríplice dos Vencedores e Tríplice de Hitler.";
-            this.resp91.UseVisualStyleBackColor = true;
-            // 
-            // ques9texto
-            // 
-            this.ques9texto.ForeColor = System.Drawing.Color.White;
-            this.ques9texto.Location = new System.Drawing.Point(3, 65);
-            this.ques9texto.Name = "ques9texto";
-            this.ques9texto.Size = new System.Drawing.Size(869, 77);
-            this.ques9texto.TabIndex = 1;
-            this.ques9texto.Text = "Qual o nome da aliança feita entre a Inglaterra, França e Rússia? E qual o nome d" +
-    "a aliança formada pela Alemanha, o Império Austro-Húngaro e a Itália?  Respectiv" +
-    "amente:";
-            this.ques9texto.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // ques9
-            // 
-            this.ques9.AutoSize = true;
-            this.ques9.ForeColor = System.Drawing.Color.White;
-            this.ques9.Location = new System.Drawing.Point(3, 0);
-            this.ques9.Name = "ques9";
-            this.ques9.Size = new System.Drawing.Size(117, 26);
-            this.ques9.TabIndex = 0;
-            this.ques9.Text = "Questâo nº 9";
-            // 
             // NovaPerguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
@@ -1113,11 +1113,13 @@
             this.Controls.Add(this.panel10);
             this.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximumSize = new System.Drawing.Size(1080, 650);
+            this.MinimumSize = new System.Drawing.Size(1080, 650);
             this.Name = "NovaPerguntas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perguntas";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

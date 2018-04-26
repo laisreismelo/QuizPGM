@@ -38,6 +38,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.labelnota = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,6 +102,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.labelnota);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label1);
@@ -111,6 +113,12 @@
             this.panel2.Controls.Add(this.label6);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
+            // 
+            // labelnota
+            // 
+            resources.ApplyResources(this.labelnota, "labelnota");
+            this.labelnota.ForeColor = System.Drawing.Color.White;
+            this.labelnota.Name = "labelnota";
             // 
             // Principal
             // 
@@ -136,6 +144,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label labelnota;
     }
 }
 

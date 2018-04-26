@@ -158,8 +158,7 @@ namespace QuizPGM.Desk
             {
                 nota += 1;
             }
-            panel10.Visible = false;
-            button10.Visible = false;
+            this.Close();
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)
