@@ -43,9 +43,11 @@ namespace QuizPGM.Desk
             } else if (nota <= 5 & nota >= 1)
             {
                 textofim.Text = "Soldado, você morreu cara :/";
+                this.BackgroundImage = Properties.Resources.perdeu;
             } else if (nota == 0)
             {
                 textofim.Text = "Que horrível! Você não deu nem uma pimbada!";
+                this.BackgroundImage = Properties.Resources.perdeu;
             }
             labelnota.Text = "Sua nota é: " + nota;
         }
@@ -76,10 +78,12 @@ namespace QuizPGM.Desk
             else if (nota <= 5 & nota >= 1)
             {
                 textofim.Text = "Soldado, você morreu cara :/";
+                this.BackgroundImage = Properties.Resources.perdeu;
             }
             else if (nota == 0)
             {
                 textofim.Text = "Que horrível! Você não deu nem uma pimbada!";
+                this.BackgroundImage = Properties.Resources.perdeu;
             }
             labelnota.Text = "Sua nota é: " + nota;
         }
