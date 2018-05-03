@@ -34,7 +34,6 @@
             this.resp12 = new System.Windows.Forms.Button();
             this.resp11 = new System.Windows.Forms.Button();
             this.resp14 = new System.Windows.Forms.Button();
-            this.img1ques1 = new System.Windows.Forms.PictureBox();
             this.ques1perg = new System.Windows.Forms.Label();
             this.ques1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -101,7 +100,6 @@
             this.ques10texto = new System.Windows.Forms.Label();
             this.ques10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.img1ques1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -120,7 +118,6 @@
             this.panel4.Controls.Add(this.resp12);
             this.panel4.Controls.Add(this.resp11);
             this.panel4.Controls.Add(this.resp14);
-            this.panel1.Controls.Add(this.img1ques1);
             this.panel1.Controls.Add(this.ques1perg);
             this.panel1.Controls.Add(this.ques1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -135,9 +132,9 @@
             this.resp13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp13.ForeColor = System.Drawing.Color.Black;
             this.resp13.Location = new System.Drawing.Point(131, 356);
-            this.resp13.Name = "resp43";
+            this.resp13.Name = "resp13";
             this.resp13.Size = new System.Drawing.Size(400, 150);
-            this.resp13.TabIndex = 5;
+            this.resp13.TabIndex = 0;
             this.resp13.Text = "Império Russo, Alemanha e Itália";
             this.resp13.UseVisualStyleBackColor = false;
             // 
@@ -147,9 +144,9 @@
             this.resp12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp12.ForeColor = System.Drawing.Color.Black;
             this.resp12.Location = new System.Drawing.Point(531, 206);
-            this.resp12.Name = "resp42";
+            this.resp12.Name = "resp12";
             this.resp12.Size = new System.Drawing.Size(400, 150);
-            this.resp12.TabIndex = 4;
+            this.resp12.TabIndex = 0;
             this.resp12.Text = "Reino Unido, França e Império Russo";
             this.resp12.UseVisualStyleBackColor = false;
             // 
@@ -159,9 +156,9 @@
             this.resp11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp11.ForeColor = System.Drawing.Color.Black;
             this.resp11.Location = new System.Drawing.Point(131, 206);
-            this.resp11.Name = "resp41";
+            this.resp11.Name = "resp11";
             this.resp11.Size = new System.Drawing.Size(400, 150);
-            this.resp11.TabIndex = 3;
+            this.resp11.TabIndex = 0;
             this.resp11.Text = "Alemanha, Itália e Reino Unido";
             this.resp11.UseVisualStyleBackColor = false;
             this.resp11.Click += new System.EventHandler(this.resp41_Click_1);
@@ -172,23 +169,11 @@
             this.resp14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp14.ForeColor = System.Drawing.Color.Black;
             this.resp14.Location = new System.Drawing.Point(531, 356);
-            this.resp14.Name = "resp44";
+            this.resp14.Name = "resp14";
             this.resp14.Size = new System.Drawing.Size(400, 150);
-            this.resp14.TabIndex = 2;
+            this.resp14.TabIndex = 0;
             this.resp14.Text = "Alemanha, Itália e Império Russo";
             this.resp14.UseVisualStyleBackColor = false;
-            // 
-            // img1ques1
-            // 
-            this.img1ques1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.img1ques1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.img1ques1.Image = ((System.Drawing.Image)(resources.GetObject("img1ques1.Image")));
-            this.img1ques1.Location = new System.Drawing.Point(546, 267);
-            this.img1ques1.Name = "img1ques1";
-            this.img1ques1.Size = new System.Drawing.Size(506, 333);
-            this.img1ques1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img1ques1.TabIndex = 0;
-            this.img1ques1.TabStop = false;
             // 
             // ques1perg
             // 
@@ -196,7 +181,7 @@
             this.ques1perg.Location = new System.Drawing.Point(3, 65);
             this.ques1perg.Name = "ques1perg";
             this.ques1perg.Size = new System.Drawing.Size(869, 33);
-            this.ques1perg.TabIndex = 1;
+            this.ques1perg.TabIndex = 0;
             this.ques1perg.Text = "Qual dos gases abaixo não foi utilizado como arma de destruição em massa durante " +
     "a 1º Guerra:";
             // 
@@ -232,9 +217,9 @@
             this.resp23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp23.ForeColor = System.Drawing.Color.Black;
             this.resp23.Location = new System.Drawing.Point(131, 356);
-            this.resp23.Name = "resp43";
+            this.resp23.Name = "resp23";
             this.resp23.Size = new System.Drawing.Size(400, 150);
-            this.resp23.TabIndex = 5;
+            this.resp23.TabIndex = 0;
             this.resp23.Text = "Império Russo, Alemanha e Itália";
             this.resp23.UseVisualStyleBackColor = false;
             // 
@@ -244,9 +229,9 @@
             this.resp22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp22.ForeColor = System.Drawing.Color.Black;
             this.resp22.Location = new System.Drawing.Point(531, 206);
-            this.resp22.Name = "resp42";
+            this.resp22.Name = "resp22";
             this.resp22.Size = new System.Drawing.Size(400, 150);
-            this.resp22.TabIndex = 4;
+            this.resp22.TabIndex = 0;
             this.resp22.Text = "Reino Unido, França e Império Russo";
             this.resp22.UseVisualStyleBackColor = false;
             // 
@@ -256,9 +241,9 @@
             this.resp21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp21.ForeColor = System.Drawing.Color.Black;
             this.resp21.Location = new System.Drawing.Point(131, 206);
-            this.resp21.Name = "resp41";
+            this.resp21.Name = "resp21";
             this.resp21.Size = new System.Drawing.Size(400, 150);
-            this.resp21.TabIndex = 3;
+            this.resp21.TabIndex = 0;
             this.resp21.Text = "Alemanha, Itália e Reino Unido";
             this.resp21.UseVisualStyleBackColor = false;
             this.resp21.Click += new System.EventHandler(this.resp41_Click_1);
@@ -269,7 +254,7 @@
             this.resp24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.resp24.ForeColor = System.Drawing.Color.Black;
             this.resp24.Location = new System.Drawing.Point(531, 356);
-            this.resp24.Name = "resp44";
+            this.resp24.Name = "resp24";
             this.resp24.Size = new System.Drawing.Size(400, 150);
             this.resp24.TabIndex = 2;
             this.resp24.Text = "Alemanha, Itália e Império Russo";
@@ -281,7 +266,7 @@
             this.ques2texto.Location = new System.Drawing.Point(3, 65);
             this.ques2texto.Name = "ques2texto";
             this.ques2texto.Size = new System.Drawing.Size(869, 67);
-            this.ques2texto.TabIndex = 1;
+            this.ques2texto.TabIndex = 0;
             this.ques2texto.Text = resources.GetString("ques2texto.Text");
             // 
             // ques2
@@ -310,13 +295,62 @@
             this.panel3.TabIndex = 0;
             this.panel3.Visible = false;
             // 
+            // resp33
+            // 
+            this.resp33.BackColor = System.Drawing.Color.White;
+            this.resp33.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp33.ForeColor = System.Drawing.Color.Black;
+            this.resp33.Location = new System.Drawing.Point(131, 356);
+            this.resp33.Name = "resp33";
+            this.resp33.Size = new System.Drawing.Size(400, 150);
+            this.resp33.TabIndex = 0;
+            this.resp33.Text = "Império Russo, Alemanha e Itália";
+            this.resp33.UseVisualStyleBackColor = false;
+            // 
+            // resp32
+            // 
+            this.resp32.BackColor = System.Drawing.Color.White;
+            this.resp32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp32.ForeColor = System.Drawing.Color.Black;
+            this.resp32.Location = new System.Drawing.Point(531, 206);
+            this.resp32.Name = "resp32";
+            this.resp32.Size = new System.Drawing.Size(400, 150);
+            this.resp32.TabIndex = 0;
+            this.resp32.Text = "Reino Unido, França e Império Russo";
+            this.resp32.UseVisualStyleBackColor = false;
+            // 
+            // resp31
+            // 
+            this.resp31.BackColor = System.Drawing.Color.White;
+            this.resp31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp31.ForeColor = System.Drawing.Color.Black;
+            this.resp31.Location = new System.Drawing.Point(131, 206);
+            this.resp31.Name = "resp31";
+            this.resp31.Size = new System.Drawing.Size(400, 150);
+            this.resp31.TabIndex = 0;
+            this.resp31.Text = "Alemanha, Itália e Reino Unido";
+            this.resp31.UseVisualStyleBackColor = false;
+            this.resp31.Click += new System.EventHandler(this.resp41_Click_1);
+            // 
+            // resp34
+            // 
+            this.resp34.BackColor = System.Drawing.Color.White;
+            this.resp34.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp34.ForeColor = System.Drawing.Color.Black;
+            this.resp34.Location = new System.Drawing.Point(531, 356);
+            this.resp34.Name = "resp34";
+            this.resp34.Size = new System.Drawing.Size(400, 150);
+            this.resp34.TabIndex = 0;
+            this.resp34.Text = "Alemanha, Itália e Império Russo";
+            this.resp34.UseVisualStyleBackColor = false;
+            // 
             // ques3texto
             // 
             this.ques3texto.ForeColor = System.Drawing.Color.White;
             this.ques3texto.Location = new System.Drawing.Point(3, 65);
             this.ques3texto.Name = "ques3texto";
             this.ques3texto.Size = new System.Drawing.Size(869, 67);
-            this.ques3texto.TabIndex = 1;
+            this.ques3texto.TabIndex = 0;
             this.ques3texto.Text = "Quantos anos durou a 1ª Grande Guerra?";
             // 
             // ques3
@@ -353,7 +387,7 @@
             this.resp43.Location = new System.Drawing.Point(131, 356);
             this.resp43.Name = "resp43";
             this.resp43.Size = new System.Drawing.Size(400, 150);
-            this.resp43.TabIndex = 5;
+            this.resp43.TabIndex = 0;
             this.resp43.Text = "Império Russo, Alemanha e Itália";
             this.resp43.UseVisualStyleBackColor = false;
             // 
@@ -365,7 +399,7 @@
             this.resp42.Location = new System.Drawing.Point(531, 206);
             this.resp42.Name = "resp42";
             this.resp42.Size = new System.Drawing.Size(400, 150);
-            this.resp42.TabIndex = 4;
+            this.resp42.TabIndex = 0;
             this.resp42.Text = "Reino Unido, França e Império Russo";
             this.resp42.UseVisualStyleBackColor = false;
             // 
@@ -377,7 +411,7 @@
             this.resp41.Location = new System.Drawing.Point(131, 206);
             this.resp41.Name = "resp41";
             this.resp41.Size = new System.Drawing.Size(400, 150);
-            this.resp41.TabIndex = 3;
+            this.resp41.TabIndex = 0;
             this.resp41.Text = "Alemanha, Itália e Reino Unido";
             this.resp41.UseVisualStyleBackColor = false;
             this.resp41.Click += new System.EventHandler(this.resp41_Click_1);
@@ -390,7 +424,7 @@
             this.resp44.Location = new System.Drawing.Point(531, 356);
             this.resp44.Name = "resp44";
             this.resp44.Size = new System.Drawing.Size(400, 150);
-            this.resp44.TabIndex = 2;
+            this.resp44.TabIndex = 0;
             this.resp44.Text = "Alemanha, Itália e Império Russo";
             this.resp44.UseVisualStyleBackColor = false;
             // 
@@ -400,7 +434,7 @@
             this.ques4texto.Location = new System.Drawing.Point(3, 65);
             this.ques4texto.Name = "ques4texto";
             this.ques4texto.Size = new System.Drawing.Size(869, 67);
-            this.ques4texto.TabIndex = 1;
+            this.ques4texto.TabIndex = 0;
             this.ques4texto.Text = "Quais foram os países que compuseram a tríplice entente (no inicio da 1º Guerra M" +
     "undial)?";
             // 
@@ -430,13 +464,62 @@
             this.panel6.TabIndex = 0;
             this.panel6.Visible = false;
             // 
+            // resp63
+            // 
+            this.resp63.BackColor = System.Drawing.Color.White;
+            this.resp63.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp63.ForeColor = System.Drawing.Color.Black;
+            this.resp63.Location = new System.Drawing.Point(131, 356);
+            this.resp63.Name = "resp63";
+            this.resp63.Size = new System.Drawing.Size(400, 150);
+            this.resp63.TabIndex = 0;
+            this.resp63.Text = "Império Russo, Alemanha e Itália";
+            this.resp63.UseVisualStyleBackColor = false;
+            // 
+            // resp62
+            // 
+            this.resp62.BackColor = System.Drawing.Color.White;
+            this.resp62.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp62.ForeColor = System.Drawing.Color.Black;
+            this.resp62.Location = new System.Drawing.Point(531, 206);
+            this.resp62.Name = "resp62";
+            this.resp62.Size = new System.Drawing.Size(400, 150);
+            this.resp62.TabIndex = 0;
+            this.resp62.Text = "Reino Unido, França e Império Russo";
+            this.resp62.UseVisualStyleBackColor = false;
+            // 
+            // resp61
+            // 
+            this.resp61.BackColor = System.Drawing.Color.White;
+            this.resp61.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp61.ForeColor = System.Drawing.Color.Black;
+            this.resp61.Location = new System.Drawing.Point(131, 206);
+            this.resp61.Name = "resp61";
+            this.resp61.Size = new System.Drawing.Size(400, 150);
+            this.resp61.TabIndex = 0;
+            this.resp61.Text = "Alemanha, Itália e Reino Unido";
+            this.resp61.UseVisualStyleBackColor = false;
+            this.resp61.Click += new System.EventHandler(this.resp41_Click_1);
+            // 
+            // resp64
+            // 
+            this.resp64.BackColor = System.Drawing.Color.White;
+            this.resp64.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp64.ForeColor = System.Drawing.Color.Black;
+            this.resp64.Location = new System.Drawing.Point(531, 356);
+            this.resp64.Name = "resp64";
+            this.resp64.Size = new System.Drawing.Size(400, 150);
+            this.resp64.TabIndex = 0;
+            this.resp64.Text = "Alemanha, Itália e Império Russo";
+            this.resp64.UseVisualStyleBackColor = false;
+            //
             // ques6texto
             // 
             this.ques6texto.ForeColor = System.Drawing.Color.White;
             this.ques6texto.Location = new System.Drawing.Point(3, 65);
             this.ques6texto.Name = "ques6texto";
             this.ques6texto.Size = new System.Drawing.Size(869, 145);
-            this.ques6texto.TabIndex = 1;
+            this.ques6texto.TabIndex = 0;
             this.ques6texto.Text = "A 1 Guerra Mundial termina:";
             // 
             // ques6
@@ -465,13 +548,62 @@
             this.panel8.TabIndex = 0;
             this.panel8.Visible = false;
             // 
+            // resp83
+            // 
+            this.resp83.BackColor = System.Drawing.Color.White;
+            this.resp83.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp83.ForeColor = System.Drawing.Color.Black;
+            this.resp83.Location = new System.Drawing.Point(131, 356);
+            this.resp83.Name = "resp83";
+            this.resp83.Size = new System.Drawing.Size(400, 150);
+            this.resp83.TabIndex = 0;
+            this.resp83.Text = "Império Russo, Alemanha e Itália";
+            this.resp83.UseVisualStyleBackColor = false;
+            // 
+            // resp82
+            // 
+            this.resp82.BackColor = System.Drawing.Color.White;
+            this.resp82.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp82.ForeColor = System.Drawing.Color.Black;
+            this.resp82.Location = new System.Drawing.Point(531, 206);
+            this.resp82.Name = "resp82";
+            this.resp82.Size = new System.Drawing.Size(400, 150);
+            this.resp82.TabIndex = 0;
+            this.resp82.Text = "Reino Unido, França e Império Russo";
+            this.resp82.UseVisualStyleBackColor = false;
+            // 
+            // resp81
+            // 
+            this.resp81.BackColor = System.Drawing.Color.White;
+            this.resp81.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp81.ForeColor = System.Drawing.Color.Black;
+            this.resp81.Location = new System.Drawing.Point(131, 206);
+            this.resp81.Name = "resp81";
+            this.resp81.Size = new System.Drawing.Size(400, 150);
+            this.resp81.TabIndex = 0;
+            this.resp81.Text = "Alemanha, Itália e Reino Unido";
+            this.resp81.UseVisualStyleBackColor = false;
+            this.resp81.Click += new System.EventHandler(this.resp41_Click_1);
+            // 
+            // resp84
+            // 
+            this.resp84.BackColor = System.Drawing.Color.White;
+            this.resp84.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp84.ForeColor = System.Drawing.Color.Black;
+            this.resp84.Location = new System.Drawing.Point(531, 356);
+            this.resp84.Name = "resp84";
+            this.resp84.Size = new System.Drawing.Size(400, 150);
+            this.resp84.TabIndex = 0;
+            this.resp84.Text = "Alemanha, Itália e Império Russo";
+            this.resp84.UseVisualStyleBackColor = false;
+            // 
             // ques8texto
             // 
             this.ques8texto.ForeColor = System.Drawing.Color.White;
             this.ques8texto.Location = new System.Drawing.Point(3, 65);
             this.ques8texto.Name = "ques8texto";
             this.ques8texto.Size = new System.Drawing.Size(869, 67);
-            this.ques8texto.TabIndex = 1;
+            this.ques8texto.TabIndex = 0;
             this.ques8texto.Text = "Qual foi a operação que manchou a imagem de Winston Churchill por ter sido desast" +
     "rosa?";
             // 
@@ -501,13 +633,62 @@
             this.panel7.TabIndex = 0;
             this.panel7.Visible = false;
             // 
+            // resp73
+            // 
+            this.resp73.BackColor = System.Drawing.Color.White;
+            this.resp73.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp73.ForeColor = System.Drawing.Color.Black;
+            this.resp73.Location = new System.Drawing.Point(131, 356);
+            this.resp73.Name = "resp73";
+            this.resp73.Size = new System.Drawing.Size(400, 150);
+            this.resp73.TabIndex = 0;
+            this.resp73.Text = "Império Russo, Alemanha e Itália";
+            this.resp73.UseVisualStyleBackColor = false;
+            // 
+            // resp72
+            // 
+            this.resp72.BackColor = System.Drawing.Color.White;
+            this.resp72.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp72.ForeColor = System.Drawing.Color.Black;
+            this.resp72.Location = new System.Drawing.Point(531, 206);
+            this.resp72.Name = "resp72";
+            this.resp72.Size = new System.Drawing.Size(400, 150);
+            this.resp72.TabIndex = 0;
+            this.resp72.Text = "Reino Unido, França e Império Russo";
+            this.resp72.UseVisualStyleBackColor = false;
+            // 
+            // resp71
+            // 
+            this.resp71.BackColor = System.Drawing.Color.White;
+            this.resp71.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp71.ForeColor = System.Drawing.Color.Black;
+            this.resp71.Location = new System.Drawing.Point(131, 206);
+            this.resp71.Name = "resp71";
+            this.resp71.Size = new System.Drawing.Size(400, 150);
+            this.resp71.TabIndex = 0;
+            this.resp71.Text = "Alemanha, Itália e Reino Unido";
+            this.resp71.UseVisualStyleBackColor = false;
+            this.resp71.Click += new System.EventHandler(this.resp41_Click_1);
+            //
+            // resp74
+            // 
+            this.resp74.BackColor = System.Drawing.Color.White;
+            this.resp74.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp74.ForeColor = System.Drawing.Color.Black;
+            this.resp74.Location = new System.Drawing.Point(531, 356);
+            this.resp74.Name = "resp74";
+            this.resp74.Size = new System.Drawing.Size(400, 150);
+            this.resp74.TabIndex = 0;
+            this.resp74.Text = "Alemanha, Itália e Império Russo";
+            this.resp74.UseVisualStyleBackColor = false;
+            //
             // ques7texto
             // 
             this.ques7texto.ForeColor = System.Drawing.Color.White;
             this.ques7texto.Location = new System.Drawing.Point(3, 65);
             this.ques7texto.Name = "ques7texto";
             this.ques7texto.Size = new System.Drawing.Size(869, 67);
-            this.ques7texto.TabIndex = 1;
+            this.ques7texto.TabIndex = 0;
             this.ques7texto.Text = "Qual dos itens abaixo NÃO está ligado à 1ª Guerra Mundial enquanto causa?";
             // 
             // ques7
@@ -536,13 +717,62 @@
             this.panel5.TabIndex = 0;
             this.panel5.Visible = false;
             // 
+            // resp53
+            // 
+            this.resp53.BackColor = System.Drawing.Color.White;
+            this.resp53.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp53.ForeColor = System.Drawing.Color.Black;
+            this.resp53.Location = new System.Drawing.Point(131, 356);
+            this.resp53.Name = "resp53";
+            this.resp53.Size = new System.Drawing.Size(400, 150);
+            this.resp53.TabIndex = 0;
+            this.resp53.Text = "Império Russo, Alemanha e Itália";
+            this.resp53.UseVisualStyleBackColor = false;
+            // 
+            // resp52
+            // 
+            this.resp52.BackColor = System.Drawing.Color.White;
+            this.resp52.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp52.ForeColor = System.Drawing.Color.Black;
+            this.resp52.Location = new System.Drawing.Point(531, 206);
+            this.resp52.Name = "resp52";
+            this.resp52.Size = new System.Drawing.Size(400, 150);
+            this.resp52.TabIndex = 0;
+            this.resp52.Text = "Reino Unido, França e Império Russo";
+            this.resp52.UseVisualStyleBackColor = false;
+            // 
+            // resp51
+            // 
+            this.resp51.BackColor = System.Drawing.Color.White;
+            this.resp51.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp51.ForeColor = System.Drawing.Color.Black;
+            this.resp51.Location = new System.Drawing.Point(131, 206);
+            this.resp51.Name = "resp51";
+            this.resp51.Size = new System.Drawing.Size(400, 150);
+            this.resp51.TabIndex = 0;
+            this.resp51.Text = "Alemanha, Itália e Reino Unido";
+            this.resp51.UseVisualStyleBackColor = false;
+            this.resp51.Click += new System.EventHandler(this.resp41_Click_1);
+            //
+            // resp54
+            // 
+            this.resp54.BackColor = System.Drawing.Color.White;
+            this.resp54.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp54.ForeColor = System.Drawing.Color.Black;
+            this.resp54.Location = new System.Drawing.Point(531, 356);
+            this.resp54.Name = "resp64";
+            this.resp54.Size = new System.Drawing.Size(400, 150);
+            this.resp54.TabIndex = 0;
+            this.resp54.Text = "Alemanha, Itália e Império Russo";
+            this.resp54.UseVisualStyleBackColor = false;
+            // 
             // ques5texto
             // 
             this.ques5texto.ForeColor = System.Drawing.Color.White;
             this.ques5texto.Location = new System.Drawing.Point(3, 65);
             this.ques5texto.Name = "ques5texto";
             this.ques5texto.Size = new System.Drawing.Size(869, 67);
-            this.ques5texto.TabIndex = 1;
+            this.ques5texto.TabIndex = 0;
             this.ques5texto.Text = "A Primeira Guerra Mundial foi centrada em qual continente?";
             // 
             // ques5
@@ -571,13 +801,62 @@
             this.panel9.TabIndex = 0;
             this.panel9.Visible = false;
             // 
+            // resp93
+            // 
+            this.resp93.BackColor = System.Drawing.Color.White;
+            this.resp93.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp93.ForeColor = System.Drawing.Color.Black;
+            this.resp93.Location = new System.Drawing.Point(131, 356);
+            this.resp93.Name = "resp93";
+            this.resp93.Size = new System.Drawing.Size(400, 150);
+            this.resp93.TabIndex = 0;
+            this.resp93.Text = "Império Russo, Alemanha e Itália";
+            this.resp93.UseVisualStyleBackColor = false;
+            // 
+            // resp92
+            // 
+            this.resp92.BackColor = System.Drawing.Color.White;
+            this.resp92.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp92.ForeColor = System.Drawing.Color.Black;
+            this.resp92.Location = new System.Drawing.Point(531, 206);
+            this.resp92.Name = "resp92";
+            this.resp92.Size = new System.Drawing.Size(400, 150);
+            this.resp92.TabIndex = 0;
+            this.resp92.Text = "Reino Unido, França e Império Russo";
+            this.resp92.UseVisualStyleBackColor = false;
+            // 
+            // resp91
+            // 
+            this.resp91.BackColor = System.Drawing.Color.White;
+            this.resp91.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp91.ForeColor = System.Drawing.Color.Black;
+            this.resp91.Location = new System.Drawing.Point(131, 206);
+            this.resp91.Name = "resp91";
+            this.resp91.Size = new System.Drawing.Size(400, 150);
+            this.resp91.TabIndex = 0;
+            this.resp91.Text = "Alemanha, Itália e Reino Unido";
+            this.resp91.UseVisualStyleBackColor = false;
+            this.resp91.Click += new System.EventHandler(this.resp41_Click_1);
+            // 
+            // resp94
+            // 
+            this.resp94.BackColor = System.Drawing.Color.White;
+            this.resp94.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resp94.ForeColor = System.Drawing.Color.Black;
+            this.resp94.Location = new System.Drawing.Point(531, 356);
+            this.resp94.Name = "resp94";
+            this.resp94.Size = new System.Drawing.Size(400, 150);
+            this.resp94.TabIndex = 0;
+            this.resp94.Text = "Alemanha, Itália e Império Russo";
+            this.resp94.UseVisualStyleBackColor = false;
+            // 
             // ques9texto
             // 
             this.ques9texto.ForeColor = System.Drawing.Color.White;
             this.ques9texto.Location = new System.Drawing.Point(3, 65);
             this.ques9texto.Name = "ques9texto";
             this.ques9texto.Size = new System.Drawing.Size(869, 77);
-            this.ques9texto.TabIndex = 1;
+            this.ques9texto.TabIndex = 0;
             this.ques9texto.Text = "Qual o nome da aliança feita entre a Inglaterra, França e Rússia? E qual o nome d" +
     "a aliança formada pela Alemanha, o Império Austro-Húngaro e a Itália?  Respectiv" +
     "amente:";
@@ -658,7 +937,6 @@
             this.Text = "Perguntas";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.img1ques1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -713,7 +991,6 @@
         private System.Windows.Forms.Label ques5;
         private System.Windows.Forms.Label ques4texto;
         private System.Windows.Forms.Label ques4;
-        private System.Windows.Forms.PictureBox img1ques1;
         private System.Windows.Forms.Button resp13;
         private System.Windows.Forms.Button resp12;
         private System.Windows.Forms.Button resp11;
