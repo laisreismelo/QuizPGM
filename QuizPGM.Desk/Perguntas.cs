@@ -12,7 +12,7 @@ namespace QuizPGM.Desk
 {
     public partial class NovaPerguntas : Form
     {
-        private int nota;
+        public static int nota;
         public NovaPerguntas()
         {
             InitializeComponent();
