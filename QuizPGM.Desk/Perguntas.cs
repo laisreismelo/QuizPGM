@@ -165,5 +165,10 @@ namespace QuizPGM.Desk
         {
 
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

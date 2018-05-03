@@ -438,6 +438,7 @@
             this.panel4.Size = new System.Drawing.Size(1064, 612);
             this.panel4.TabIndex = 0;
             this.panel4.Visible = false;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // button4
             // 
@@ -491,7 +492,7 @@
             // 
             this.resp41.AutoSize = true;
             this.resp41.ForeColor = System.Drawing.Color.White;
-            this.resp41.Location = new System.Drawing.Point(14, 145);
+            this.resp41.Location = new System.Drawing.Point(9, 145);
             this.resp41.Name = "resp41";
             this.resp41.Size = new System.Drawing.Size(291, 30);
             this.resp41.TabIndex = 2;
