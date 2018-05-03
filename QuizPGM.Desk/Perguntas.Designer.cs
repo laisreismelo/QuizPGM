@@ -87,10 +87,10 @@
             this.ques5texto = new System.Windows.Forms.Label();
             this.ques5 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.resp53 = new System.Windows.Forms.Button();
-            this.resp52 = new System.Windows.Forms.Button();
-            this.resp51 = new System.Windows.Forms.Button();
-            this.resp54 = new System.Windows.Forms.Button();
+            this.resp93 = new System.Windows.Forms.Button();
+            this.resp92 = new System.Windows.Forms.Button();
+            this.resp91 = new System.Windows.Forms.Button();
+            this.resp94 = new System.Windows.Forms.Button();
             this.ques9texto = new System.Windows.Forms.Label();
             this.ques9 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
