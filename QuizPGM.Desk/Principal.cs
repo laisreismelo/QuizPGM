@@ -33,11 +33,55 @@ namespace QuizPGM.Desk
             {
                 this.Close();
             }
+            int nota = NovaPerguntas.nota;
+            if (nota == 10)
+            {
+                textofim.Text = "Parabéns soldado, você ganhou a guerra!";
+            } else if (nota <= 9 & nota >= 6)
+            {
+                textofim.Text = "Parabéns soldado, você foi muito bem!";
+            } else if (nota <= 5 & nota >= 1)
+            {
+                textofim.Text = "Soldado, você morreu cara :/";
+            } else if (nota == 0)
+            {
+                textofim.Text = "Que horrível! Você não deu nem uma pimbada!";
+            }
+            labelnota.Text = "Sua nota é: " + nota;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            Inicio inicio = new Inicio();
+            inicio.ShowDialog();
+            if (inicio.res == "s")
+            {
+                NovaPerguntas perguntas = new NovaPerguntas();
+                perguntas.ShowDialog();
 
+            }
+            if (inicio.res == "n")
+            {
+                this.Close();
+            }
+            int nota = NovaPerguntas.nota;
+            if (nota == 10)
+            {
+                textofim.Text = "Parabéns soldado, você ganhou a guerra!";
+            }
+            else if (nota <= 9 & nota >= 6)
+            {
+                textofim.Text = "Parabéns soldado, você foi muito bem!";
+            }
+            else if (nota <= 5 & nota >= 1)
+            {
+                textofim.Text = "Soldado, você morreu cara :/";
+            }
+            else if (nota == 0)
+            {
+                textofim.Text = "Que horrível! Você não deu nem uma pimbada!";
+            }
+            labelnota.Text = "Sua nota é: " + nota;
         }
     }
 }
