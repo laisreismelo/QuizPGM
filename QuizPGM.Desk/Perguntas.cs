@@ -18,29 +18,5 @@ namespace QuizPGM.Desk
             InitializeComponent();
             nota = 0;
         }
-        private void resp41_Click_1(object sender, EventArgs e)
-        {
-            panel4.Visible = false;
-            panel5.Visible = true;
-        }
-
-        private void resp42_Click_1(object sender, EventArgs e)
-        {
-            nota += 1;
-            panel4.Visible = false;
-            panel5.Visible = true;
-        }
-
-        private void resp43_Click_1(object sender, EventArgs e)
-        {
-            panel4.Visible = false;
-            panel5.Visible = true;
-        }
-
-        private void resp44_Click_1(object sender, EventArgs e)
-        {
-            panel4.Visible = false;
-            panel5.Visible = true;
-        }
     }
 }

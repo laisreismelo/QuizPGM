@@ -12,7 +12,7 @@ namespace QuizPGM.Desk
 {
     public partial class Inicio : Form
     {
-        public string res; 
+        public string res;
 
         public Inicio()
         {
