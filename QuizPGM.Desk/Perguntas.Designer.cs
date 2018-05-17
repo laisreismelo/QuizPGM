@@ -116,6 +116,8 @@
             // 
             // btn3quest1
             // 
+            this.btn3quest1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest1.ForeColor = System.Drawing.Color.Black;
             this.btn3quest1.Location = new System.Drawing.Point(13, 397);
             this.btn3quest1.Name = "btn3quest1";
@@ -123,10 +125,12 @@
             this.btn3quest1.TabIndex = 4;
             this.btn3quest1.Text = "Gás cloro";
             this.btn3quest1.UseVisualStyleBackColor = true;
-            this.btn3quest1.Click += new System.EventHandler(this.btn3quest1_Click);
+            this.btn3quest1.Click += new System.EventHandler(this.Btn3quest1_Click);
             // 
             // btn4quest1
             // 
+            this.btn4quest1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest1.ForeColor = System.Drawing.Color.Black;
             this.btn4quest1.Location = new System.Drawing.Point(365, 397);
             this.btn4quest1.Name = "btn4quest1";
@@ -134,10 +138,12 @@
             this.btn4quest1.TabIndex = 3;
             this.btn4quest1.Text = "Gás mostarda";
             this.btn4quest1.UseVisualStyleBackColor = true;
-            this.btn4quest1.Click += new System.EventHandler(this.btn4quest1_Click);
+            this.btn4quest1.Click += new System.EventHandler(this.Btn4quest1_Click);
             // 
             // btn2quest1
             // 
+            this.btn2quest1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest1.ForeColor = System.Drawing.Color.Black;
             this.btn2quest1.Location = new System.Drawing.Point(365, 305);
             this.btn2quest1.Name = "btn2quest1";
@@ -145,18 +151,20 @@
             this.btn2quest1.TabIndex = 2;
             this.btn2quest1.Text = "Gás fosfogênio";
             this.btn2quest1.UseVisualStyleBackColor = true;
-            this.btn2quest1.Click += new System.EventHandler(this.btn2quest1_Click);
+            this.btn2quest1.Click += new System.EventHandler(this.Btn2quest1_Click);
             // 
             // btn1quest1
             // 
+            this.btn1quest1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest1.ForeColor = System.Drawing.Color.Black;
             this.btn1quest1.Location = new System.Drawing.Point(13, 305);
             this.btn1quest1.Name = "btn1quest1";
             this.btn1quest1.Size = new System.Drawing.Size(340, 90);
             this.btn1quest1.TabIndex = 1;
             this.btn1quest1.Text = "Gás lacrimogênio";
-            this.btn1quest1.UseVisualStyleBackColor = true;
-            this.btn1quest1.Click += new System.EventHandler(this.btn1quest1_Click);
+            this.btn1quest1.UseVisualStyleBackColor = false;
+            this.btn1quest1.Click += new System.EventHandler(this.Btn1quest1_Click);
             // 
             // label1
             // 
@@ -186,6 +194,8 @@
             // 
             // btn3quest2
             // 
+            this.btn3quest2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest2.ForeColor = System.Drawing.Color.Black;
             this.btn3quest2.Location = new System.Drawing.Point(13, 397);
             this.btn3quest2.Name = "btn3quest2";
@@ -193,10 +203,12 @@
             this.btn3quest2.TabIndex = 4;
             this.btn3quest2.Text = "button1";
             this.btn3quest2.UseVisualStyleBackColor = true;
-            this.btn3quest2.Click += new System.EventHandler(this.btn3quest2_Click);
+            this.btn3quest2.Click += new System.EventHandler(this.Btn3quest2_Click);
             // 
             // btn4quest2
             // 
+            this.btn4quest2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest2.ForeColor = System.Drawing.Color.Black;
             this.btn4quest2.Location = new System.Drawing.Point(365, 397);
             this.btn4quest2.Name = "btn4quest2";
@@ -204,10 +216,12 @@
             this.btn4quest2.TabIndex = 3;
             this.btn4quest2.Text = "button1";
             this.btn4quest2.UseVisualStyleBackColor = true;
-            this.btn4quest2.Click += new System.EventHandler(this.btn4quest2_Click);
+            this.btn4quest2.Click += new System.EventHandler(this.Btn4quest2_Click);
             // 
             // btn2quest2
             // 
+            this.btn2quest2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest2.ForeColor = System.Drawing.Color.Black;
             this.btn2quest2.Location = new System.Drawing.Point(365, 305);
             this.btn2quest2.Name = "btn2quest2";
@@ -215,10 +229,12 @@
             this.btn2quest2.TabIndex = 2;
             this.btn2quest2.Text = "button1";
             this.btn2quest2.UseVisualStyleBackColor = true;
-            this.btn2quest2.Click += new System.EventHandler(this.btn2quest2_Click);
+            this.btn2quest2.Click += new System.EventHandler(this.Btn2quest2_Click);
             // 
             // btn1quest2
             // 
+            this.btn1quest2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest2.ForeColor = System.Drawing.Color.Black;
             this.btn1quest2.Location = new System.Drawing.Point(13, 305);
             this.btn1quest2.Name = "btn1quest2";
@@ -226,7 +242,7 @@
             this.btn1quest2.TabIndex = 1;
             this.btn1quest2.Text = "button1";
             this.btn1quest2.UseVisualStyleBackColor = true;
-            this.btn1quest2.Click += new System.EventHandler(this.btn1quest2_Click);
+            this.btn1quest2.Click += new System.EventHandler(this.Btn1quest2_Click);
             // 
             // label2
             // 
@@ -268,6 +284,8 @@
             // 
             // btn3quest3
             // 
+            this.btn3quest3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest3.ForeColor = System.Drawing.Color.Black;
             this.btn3quest3.Location = new System.Drawing.Point(13, 397);
             this.btn3quest3.Name = "btn3quest3";
@@ -275,10 +293,12 @@
             this.btn3quest3.TabIndex = 4;
             this.btn3quest3.Text = "3 anos";
             this.btn3quest3.UseVisualStyleBackColor = true;
-            this.btn3quest3.Click += new System.EventHandler(this.btn3quest3_Click);
+            this.btn3quest3.Click += new System.EventHandler(this.Btn3quest3_Click);
             // 
             // btn4quest3
             // 
+            this.btn4quest3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest3.ForeColor = System.Drawing.Color.Black;
             this.btn4quest3.Location = new System.Drawing.Point(365, 397);
             this.btn4quest3.Name = "btn4quest3";
@@ -286,10 +306,12 @@
             this.btn4quest3.TabIndex = 3;
             this.btn4quest3.Text = "5 anos";
             this.btn4quest3.UseVisualStyleBackColor = true;
-            this.btn4quest3.Click += new System.EventHandler(this.btn4quest3_Click);
+            this.btn4quest3.Click += new System.EventHandler(this.Btn4quest3_Click);
             // 
             // btn2quest3
             // 
+            this.btn2quest3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest3.ForeColor = System.Drawing.Color.Black;
             this.btn2quest3.Location = new System.Drawing.Point(365, 305);
             this.btn2quest3.Name = "btn2quest3";
@@ -297,10 +319,12 @@
             this.btn2quest3.TabIndex = 2;
             this.btn2quest3.Text = "4 anos";
             this.btn2quest3.UseVisualStyleBackColor = true;
-            this.btn2quest3.Click += new System.EventHandler(this.btn2quest3_Click);
+            this.btn2quest3.Click += new System.EventHandler(this.Btn2quest3_Click);
             // 
             // btn1quest3
             // 
+            this.btn1quest3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest3.ForeColor = System.Drawing.Color.Black;
             this.btn1quest3.Location = new System.Drawing.Point(13, 305);
             this.btn1quest3.Name = "btn1quest3";
@@ -308,7 +332,7 @@
             this.btn1quest3.TabIndex = 1;
             this.btn1quest3.Text = "6 anos";
             this.btn1quest3.UseVisualStyleBackColor = true;
-            this.btn1quest3.Click += new System.EventHandler(this.btn1quest3_Click);
+            this.btn1quest3.Click += new System.EventHandler(this.Btn1quest3_Click);
             // 
             // label3
             // 
@@ -337,6 +361,8 @@
             // 
             // btn3quest4
             // 
+            this.btn3quest4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest4.ForeColor = System.Drawing.Color.Black;
             this.btn3quest4.Location = new System.Drawing.Point(13, 397);
             this.btn3quest4.Name = "btn3quest4";
@@ -344,10 +370,12 @@
             this.btn3quest4.TabIndex = 4;
             this.btn3quest4.Text = "button1";
             this.btn3quest4.UseVisualStyleBackColor = true;
-            this.btn3quest4.Click += new System.EventHandler(this.btn3quest4_Click);
+            this.btn3quest4.Click += new System.EventHandler(this.Btn3quest4_Click);
             // 
             // btn4quest4
             // 
+            this.btn4quest4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest4.ForeColor = System.Drawing.Color.Black;
             this.btn4quest4.Location = new System.Drawing.Point(365, 397);
             this.btn4quest4.Name = "btn4quest4";
@@ -355,10 +383,12 @@
             this.btn4quest4.TabIndex = 3;
             this.btn4quest4.Text = "button1";
             this.btn4quest4.UseVisualStyleBackColor = true;
-            this.btn4quest4.Click += new System.EventHandler(this.btn4quest4_Click);
+            this.btn4quest4.Click += new System.EventHandler(this.Btn4quest4_Click);
             // 
             // btn2quest4
             // 
+            this.btn2quest4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest4.ForeColor = System.Drawing.Color.Black;
             this.btn2quest4.Location = new System.Drawing.Point(365, 305);
             this.btn2quest4.Name = "btn2quest4";
@@ -366,10 +396,12 @@
             this.btn2quest4.TabIndex = 2;
             this.btn2quest4.Text = "button1";
             this.btn2quest4.UseVisualStyleBackColor = true;
-            this.btn2quest4.Click += new System.EventHandler(this.btn2quest4_Click);
+            this.btn2quest4.Click += new System.EventHandler(this.Btn2quest4_Click);
             // 
             // btn1quest4
             // 
+            this.btn1quest4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest4.ForeColor = System.Drawing.Color.Black;
             this.btn1quest4.Location = new System.Drawing.Point(13, 305);
             this.btn1quest4.Name = "btn1quest4";
@@ -377,7 +409,7 @@
             this.btn1quest4.TabIndex = 1;
             this.btn1quest4.Text = "button1";
             this.btn1quest4.UseVisualStyleBackColor = true;
-            this.btn1quest4.Click += new System.EventHandler(this.btn1quest4_Click);
+            this.btn1quest4.Click += new System.EventHandler(this.Btn1quest4_Click);
             // 
             // label4
             // 
@@ -407,6 +439,8 @@
             // 
             // btn3quest5
             // 
+            this.btn3quest5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest5.ForeColor = System.Drawing.Color.Black;
             this.btn3quest5.Location = new System.Drawing.Point(13, 397);
             this.btn3quest5.Name = "btn3quest5";
@@ -414,10 +448,12 @@
             this.btn3quest5.TabIndex = 4;
             this.btn3quest5.Text = "Ásia";
             this.btn3quest5.UseVisualStyleBackColor = true;
-            this.btn3quest5.Click += new System.EventHandler(this.btn3quest5_Click);
+            this.btn3quest5.Click += new System.EventHandler(this.Btn3quest5_Click);
             // 
             // btn4quest5
             // 
+            this.btn4quest5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest5.ForeColor = System.Drawing.Color.Black;
             this.btn4quest5.Location = new System.Drawing.Point(365, 397);
             this.btn4quest5.Name = "btn4quest5";
@@ -425,10 +461,12 @@
             this.btn4quest5.TabIndex = 3;
             this.btn4quest5.Text = "Europa";
             this.btn4quest5.UseVisualStyleBackColor = true;
-            this.btn4quest5.Click += new System.EventHandler(this.btn4quest5_Click);
+            this.btn4quest5.Click += new System.EventHandler(this.Btn4quest5_Click);
             // 
             // btn2quest5
             // 
+            this.btn2quest5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest5.ForeColor = System.Drawing.Color.Black;
             this.btn2quest5.Location = new System.Drawing.Point(365, 305);
             this.btn2quest5.Name = "btn2quest5";
@@ -436,10 +474,12 @@
             this.btn2quest5.TabIndex = 2;
             this.btn2quest5.Text = "América";
             this.btn2quest5.UseVisualStyleBackColor = true;
-            this.btn2quest5.Click += new System.EventHandler(this.btn2quest5_Click);
+            this.btn2quest5.Click += new System.EventHandler(this.Btn2quest5_Click);
             // 
             // btn1quest5
             // 
+            this.btn1quest5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest5.ForeColor = System.Drawing.Color.Black;
             this.btn1quest5.Location = new System.Drawing.Point(13, 305);
             this.btn1quest5.Name = "btn1quest5";
@@ -447,7 +487,7 @@
             this.btn1quest5.TabIndex = 1;
             this.btn1quest5.Text = "África";
             this.btn1quest5.UseVisualStyleBackColor = true;
-            this.btn1quest5.Click += new System.EventHandler(this.btn1quest5_Click);
+            this.btn1quest5.Click += new System.EventHandler(this.Btn1quest5_Click);
             // 
             // label5
             // 
@@ -476,6 +516,8 @@
             // 
             // btn3quest6
             // 
+            this.btn3quest6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest6.ForeColor = System.Drawing.Color.Black;
             this.btn3quest6.Location = new System.Drawing.Point(13, 397);
             this.btn3quest6.Name = "btn3quest6";
@@ -483,10 +525,12 @@
             this.btn3quest6.TabIndex = 4;
             this.btn3quest6.Text = "Criada a Liga das Nações. Alemanha se torna a culpada da guerra.";
             this.btn3quest6.UseVisualStyleBackColor = true;
-            this.btn3quest6.Click += new System.EventHandler(this.btn3quest6_Click);
+            this.btn3quest6.Click += new System.EventHandler(this.Btn3quest6_Click);
             // 
             // btn4quest6
             // 
+            this.btn4quest6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest6.ForeColor = System.Drawing.Color.Black;
             this.btn4quest6.Location = new System.Drawing.Point(365, 397);
             this.btn4quest6.Name = "btn4quest6";
@@ -494,10 +538,12 @@
             this.btn4quest6.TabIndex = 3;
             this.btn4quest6.Text = "Criada a Organização das Nações Unidas. Itália se torna a culpada da guerra.";
             this.btn4quest6.UseVisualStyleBackColor = true;
-            this.btn4quest6.Click += new System.EventHandler(this.btn4quest6_Click);
+            this.btn4quest6.Click += new System.EventHandler(this.Btn4quest6_Click);
             // 
             // btn2quest6
             // 
+            this.btn2quest6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest6.ForeColor = System.Drawing.Color.Black;
             this.btn2quest6.Location = new System.Drawing.Point(365, 305);
             this.btn2quest6.Name = "btn2quest6";
@@ -505,10 +551,12 @@
             this.btn2quest6.TabIndex = 2;
             this.btn2quest6.Text = "Criada a Liga das Nações. Império Otomano se torna o culpado da guerra.";
             this.btn2quest6.UseVisualStyleBackColor = true;
-            this.btn2quest6.Click += new System.EventHandler(this.btn2quest6_Click);
+            this.btn2quest6.Click += new System.EventHandler(this.Btn2quest6_Click);
             // 
             // btn1quest6
             // 
+            this.btn1quest6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest6.ForeColor = System.Drawing.Color.Black;
             this.btn1quest6.Location = new System.Drawing.Point(13, 305);
             this.btn1quest6.Name = "btn1quest6";
@@ -517,7 +565,7 @@
             this.btn1quest6.Text = "Criada a Organização das Nações Unidas. Império Austro-Húngaro se torna culpado d" +
     "a guerra.";
             this.btn1quest6.UseVisualStyleBackColor = true;
-            this.btn1quest6.Click += new System.EventHandler(this.btn1quest6_Click);
+            this.btn1quest6.Click += new System.EventHandler(this.Btn1quest6_Click);
             // 
             // label6
             // 
@@ -546,6 +594,8 @@
             // 
             // btn3quest7
             // 
+            this.btn3quest7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest7.ForeColor = System.Drawing.Color.Black;
             this.btn3quest7.Location = new System.Drawing.Point(13, 397);
             this.btn3quest7.Name = "btn3quest7";
@@ -553,10 +603,12 @@
             this.btn3quest7.TabIndex = 4;
             this.btn3quest7.Text = "Operação Dynamo";
             this.btn3quest7.UseVisualStyleBackColor = true;
-            this.btn3quest7.Click += new System.EventHandler(this.btn3quest7_Click);
+            this.btn3quest7.Click += new System.EventHandler(this.Btn3quest7_Click);
             // 
             // btn4quest7
             // 
+            this.btn4quest7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest7.ForeColor = System.Drawing.Color.Black;
             this.btn4quest7.Location = new System.Drawing.Point(365, 397);
             this.btn4quest7.Name = "btn4quest7";
@@ -564,10 +616,12 @@
             this.btn4quest7.TabIndex = 3;
             this.btn4quest7.Text = "Batalha de Varsóvia";
             this.btn4quest7.UseVisualStyleBackColor = true;
-            this.btn4quest7.Click += new System.EventHandler(this.btn4quest7_Click);
+            this.btn4quest7.Click += new System.EventHandler(this.Btn4quest7_Click);
             // 
             // btn2quest7
             // 
+            this.btn2quest7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest7.ForeColor = System.Drawing.Color.Black;
             this.btn2quest7.Location = new System.Drawing.Point(365, 305);
             this.btn2quest7.Name = "btn2quest7";
@@ -575,10 +629,12 @@
             this.btn2quest7.TabIndex = 2;
             this.btn2quest7.Text = "Campanha de Galipoli";
             this.btn2quest7.UseVisualStyleBackColor = true;
-            this.btn2quest7.Click += new System.EventHandler(this.btn2quest7_Click);
+            this.btn2quest7.Click += new System.EventHandler(this.Btn2quest7_Click);
             // 
             // btn1quest7
             // 
+            this.btn1quest7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest7.ForeColor = System.Drawing.Color.Black;
             this.btn1quest7.Location = new System.Drawing.Point(13, 305);
             this.btn1quest7.Name = "btn1quest7";
@@ -586,7 +642,7 @@
             this.btn1quest7.TabIndex = 1;
             this.btn1quest7.Text = "Ofensiva Brusilov";
             this.btn1quest7.UseVisualStyleBackColor = true;
-            this.btn1quest7.Click += new System.EventHandler(this.btn1quest7_Click);
+            this.btn1quest7.Click += new System.EventHandler(this.Btn1quest7_Click);
             // 
             // panel8
             // 
@@ -604,6 +660,8 @@
             // 
             // btn3quest8
             // 
+            this.btn3quest8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest8.ForeColor = System.Drawing.Color.Black;
             this.btn3quest8.Location = new System.Drawing.Point(13, 397);
             this.btn3quest8.Name = "btn3quest8";
@@ -611,10 +669,12 @@
             this.btn3quest8.TabIndex = 4;
             this.btn3quest8.Text = "O Tratado de Frankfurt";
             this.btn3quest8.UseVisualStyleBackColor = true;
-            this.btn3quest8.Click += new System.EventHandler(this.btn3quest8_Click);
+            this.btn3quest8.Click += new System.EventHandler(this.Btn3quest8_Click);
             // 
             // btn4quest8
             // 
+            this.btn4quest8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest8.ForeColor = System.Drawing.Color.Black;
             this.btn4quest8.Location = new System.Drawing.Point(365, 397);
             this.btn4quest8.Name = "btn4quest8";
@@ -622,10 +682,12 @@
             this.btn4quest8.TabIndex = 3;
             this.btn4quest8.Text = "A crescente procura de mercados e matérias-primas.";
             this.btn4quest8.UseVisualStyleBackColor = true;
-            this.btn4quest8.Click += new System.EventHandler(this.btn4quest8_Click);
+            this.btn4quest8.Click += new System.EventHandler(this.Btn4quest8_Click);
             // 
             // btn2quest8
             // 
+            this.btn2quest8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest8.ForeColor = System.Drawing.Color.Black;
             this.btn2quest8.Location = new System.Drawing.Point(365, 305);
             this.btn2quest8.Name = "btn2quest8";
@@ -633,10 +695,12 @@
             this.btn2quest8.TabIndex = 2;
             this.btn2quest8.Text = "A política agressiva de Bismarck";
             this.btn2quest8.UseVisualStyleBackColor = true;
-            this.btn2quest8.Click += new System.EventHandler(this.btn2quest8_Click);
+            this.btn2quest8.Click += new System.EventHandler(this.Btn2quest8_Click);
             // 
             // btn1quest8
             // 
+            this.btn1quest8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest8.ForeColor = System.Drawing.Color.Black;
             this.btn1quest8.Location = new System.Drawing.Point(13, 305);
             this.btn1quest8.Name = "btn1quest8";
@@ -644,7 +708,7 @@
             this.btn1quest8.TabIndex = 1;
             this.btn1quest8.Text = "A Crise Balcânica.";
             this.btn1quest8.UseVisualStyleBackColor = true;
-            this.btn1quest8.Click += new System.EventHandler(this.btn1quest8_Click);
+            this.btn1quest8.Click += new System.EventHandler(this.Btn1quest8_Click);
             // 
             // label8
             // 
@@ -673,6 +737,8 @@
             // 
             // btn3quest9
             // 
+            this.btn3quest9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest9.ForeColor = System.Drawing.Color.Black;
             this.btn3quest9.Location = new System.Drawing.Point(13, 397);
             this.btn3quest9.Name = "btn3quest9";
@@ -680,10 +746,12 @@
             this.btn3quest9.TabIndex = 4;
             this.btn3quest9.Text = "Tríplice dos Vencedores e Tríplice de Hitler.";
             this.btn3quest9.UseVisualStyleBackColor = true;
-            this.btn3quest9.Click += new System.EventHandler(this.btn3quest9_Click);
+            this.btn3quest9.Click += new System.EventHandler(this.Btn3quest9_Click);
             // 
             // btn4quest9
             // 
+            this.btn4quest9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest9.ForeColor = System.Drawing.Color.Black;
             this.btn4quest9.Location = new System.Drawing.Point(365, 397);
             this.btn4quest9.Name = "btn4quest9";
@@ -691,10 +759,12 @@
             this.btn4quest9.TabIndex = 3;
             this.btn4quest9.Text = "Tríplice Entente e Tríplice Aliança.";
             this.btn4quest9.UseVisualStyleBackColor = true;
-            this.btn4quest9.Click += new System.EventHandler(this.btn4quest9_Click);
+            this.btn4quest9.Click += new System.EventHandler(this.Btn4quest9_Click);
             // 
             // btn2quest9
             // 
+            this.btn2quest9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest9.ForeColor = System.Drawing.Color.Black;
             this.btn2quest9.Location = new System.Drawing.Point(365, 305);
             this.btn2quest9.Name = "btn2quest9";
@@ -702,10 +772,12 @@
             this.btn2quest9.TabIndex = 2;
             this.btn2quest9.Text = "Tríplice Aliança e Tríplice Entente.";
             this.btn2quest9.UseVisualStyleBackColor = true;
-            this.btn2quest9.Click += new System.EventHandler(this.btn2quest9_Click);
+            this.btn2quest9.Click += new System.EventHandler(this.Btn2quest9_Click);
             // 
             // btn1quest9
             // 
+            this.btn1quest9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest9.ForeColor = System.Drawing.Color.Black;
             this.btn1quest9.Location = new System.Drawing.Point(13, 305);
             this.btn1quest9.Name = "btn1quest9";
@@ -713,7 +785,7 @@
             this.btn1quest9.TabIndex = 1;
             this.btn1quest9.Text = "Tríplice dos Unidos e Tríplice Cardial.";
             this.btn1quest9.UseVisualStyleBackColor = true;
-            this.btn1quest9.Click += new System.EventHandler(this.btn1quest9_Click);
+            this.btn1quest9.Click += new System.EventHandler(this.Btn1quest9_Click);
             // 
             // label9
             // 
@@ -742,6 +814,8 @@
             // 
             // btn3quest10
             // 
+            this.btn3quest10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn3quest10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3quest10.ForeColor = System.Drawing.Color.Black;
             this.btn3quest10.Location = new System.Drawing.Point(13, 397);
             this.btn3quest10.Name = "btn3quest10";
@@ -749,10 +823,12 @@
             this.btn3quest10.TabIndex = 4;
             this.btn3quest10.Text = "Estado comandado pelo povo por meio de voto popular.";
             this.btn3quest10.UseVisualStyleBackColor = true;
-            this.btn3quest10.Click += new System.EventHandler(this.btn3quest10_Click);
+            this.btn3quest10.Click += new System.EventHandler(this.Btn3quest10_Click);
             // 
             // btn4quest10
             // 
+            this.btn4quest10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn4quest10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4quest10.ForeColor = System.Drawing.Color.Black;
             this.btn4quest10.Location = new System.Drawing.Point(365, 397);
             this.btn4quest10.Name = "btn4quest10";
@@ -761,11 +837,12 @@
             this.btn4quest10.Text = "Estado comandado por um líder visando o bem estar do seu povo, dando a eles o pod" +
     "er de escolher o que pensar,no que acreditar.";
             this.btn4quest10.UseVisualStyleBackColor = true;
-            this.btn4quest10.Click += new System.EventHandler(this.btn4quest10_Click);
+            this.btn4quest10.Click += new System.EventHandler(this.Btn4quest10_Click);
             // 
             // btn2quest10
             // 
-            this.btn2quest10.BackColor = System.Drawing.Color.Transparent;
+            this.btn2quest10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn2quest10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2quest10.ForeColor = System.Drawing.Color.Black;
             this.btn2quest10.Location = new System.Drawing.Point(365, 305);
             this.btn2quest10.Name = "btn2quest10";
@@ -773,10 +850,12 @@
             this.btn2quest10.TabIndex = 2;
             this.btn2quest10.Text = "Onde tudo é controlado pelo Estado, que é encabeçado pelo líder único e supremo.";
             this.btn2quest10.UseVisualStyleBackColor = false;
-            this.btn2quest10.Click += new System.EventHandler(this.btn2quest10_Click);
+            this.btn2quest10.Click += new System.EventHandler(this.Btn2quest10_Click);
             // 
             // btn1quest10
             // 
+            this.btn1quest10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn1quest10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1quest10.ForeColor = System.Drawing.Color.Black;
             this.btn1quest10.Location = new System.Drawing.Point(13, 305);
             this.btn1quest10.Name = "btn1quest10";
@@ -784,7 +863,7 @@
             this.btn1quest10.TabIndex = 1;
             this.btn1quest10.Text = "Defende a liberdade de expressão para todos.";
             this.btn1quest10.UseVisualStyleBackColor = true;
-            this.btn1quest10.Click += new System.EventHandler(this.btn1quest10_Click);
+            this.btn1quest10.Click += new System.EventHandler(this.Btn1quest10_Click);
             // 
             // label10
             // 
